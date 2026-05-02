@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/png" href="image/img7.png">
+
+    <title>Marthlo Comprehensive Bilingual College</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #e6f0ff;
+        }
+        header {
+    background: linear-gradient(rgba(0, 33, 71, 0.9), rgba(0, 33, 71, 0.9)), url('image/img1.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+        nav {
+            background: #00509e;
+            padding: 10px;
+            text-align: center;
+        }
+      nav a:hover {
+    background: #002147;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+        section {
+            padding: 20px;
+        }
+        .box {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #002147;
+        }
+        footer {
+            background: #002147;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Gallery */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Floating Icons */
+        .floating-icons {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .floating-icons img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .floating-icons img:hover {
+            transform: scale(1.1);
+        }
+      
+.logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+    border: none;
+}
+/* Add this at the bottom of your <style> section */
+@media (max-width: 768px) {
+    .gallery img {
+        width: 100%; /* Images take full width on mobile */
+    }
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+    .logo {
+        width: 120px; /* Smaller logo for mobile */
+        height: 120px;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="image/img7.png" alt="School Logo" class="logo">
+    <h1>MARTHLO COMPREHENSIVE BILINGUAL COLLEGE</h1>
+    <p>Great Soppo, Buea - Cameroon</p>
+</header>
+<nav>
+    <a href="#admissions">Admissions</a>
+    <a href="#programs">Programs</a>
+    <a href="#materials">Materials</a>
+    <a href="#uniforms">Uniforms</a>
+    <a href="#rules">Rules</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section>
+
+<div class="box" id="admissions">
+    <h2>Admissions Requirements</h2>
+    <ul>
+        <li>4 passport size photographs</li>
+        <li>Medical certificate</li>
+    </ul>
+</div>
+
+<div class="box" id="programs">
+    <h2>Programs Offered</h2>
+    <ul>
+        <li>Grammar Section</li>
+        <li>Commercial Section</li>
+        <li>Industrial Section</li>
+    </ul>
+</div>
+
+<div class="box" id="materials">
+    <h2>Basic Requirements & Materials</h2>
+    <ul>
+        <li>Prescribed textbooks</li>
+        <li>A4 paper (1 ream)</li>
+        <li>Exercise books</li>
+    </ul>
+</div>
+
+<div class="box" id="uniforms">
+    <h2>School Uniforms</h2>
+    <ul>
+        <li>Neat and complete uniforms required</li>
+        <li>Workshop and sports outfits required</li>
+    </ul>
+</div>
+
+<div class="box" id="rules">
+    <h2>School Rules</h2>
+    <ul>
+        <li>No mobile phones</li>
+        <li>No extreme hairstyles</li>
+        <li>Respect school discipline</li>
+    </ul>
+</div>
+
+<!-- Gallery -->
+<div class="box" id="gallery">
+    <h2>School Gallery</h2>
+    <div class="gallery">
+        <img src="image/img1.jpeg" alt="School">
+        <img src="image/img2.jpeg" alt="Students">
+        <img src="image/img3.jpeg" alt="Classroom">
+        <img src="image/img4.jpeg" alt="Workshop">
+        <img src="image/img5.jpeg" alt="Sports">
+        <img src="image/img6.jpeg" alt="Event">
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="box" id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Location:</strong> Great Soppo, Buea</p>
+    <p><strong>Phone:</strong> 
+    <a href="tel:+237679912619" style="color: inherit; text-decoration: none;">+237 679 912 619</a> / 
+    <a href="tel:+237653225731" style="color: inherit; text-decoration: none;">653 225 731</a>
+</p>
+</div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Marthlo Comprehensive Bilingual College</p>
+</footer>
+
+<!-- Floating Social Icons -->
+<div class="floating-icons">
+    <a href="https://wa.me/237683100139" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+    <a href="https://facebook.com/yourpage" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+</div>
+
+</body>
+</html>
